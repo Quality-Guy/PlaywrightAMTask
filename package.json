@@ -4,7 +4,7 @@
   "description": "Automation technical challenge using Playwright.",
   "main": "index.js",
   "scripts": {
-    "test": "npm cucumber-js test"
+    "test": "npx cucumber-js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
     "@cucumber/cucumber": "^11.2.0",
     "@playwright/test": "^1.50.1",
     "@types/node": "^22.13.1",
+    "ts-node": "^10.9.2",
     "tslib": "^2.8.1"
   }
 }
