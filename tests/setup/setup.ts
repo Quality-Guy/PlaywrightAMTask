@@ -4,6 +4,7 @@ import { chromium, Browser, Page } from "@playwright/test";
 export class CustomWorld extends World {
   browser!: Browser;
   page!: Page;
+  baseURL: string = "https://demo.quartexcollections.com/" //Sets base URL for all tests
 
   // Initialize Playwright before each scenario
   async init() {
