@@ -17,11 +17,9 @@
   },
   "homepage": "https://github.com/Quality-Guy/PlaywrightAMTask#readme",
   "devDependencies": {
-    "@playwright/test": "^1.50.1",
-    "@types/node": "^22.13.1"
-  },
-  "dependencies": {
     "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.1",
     "tslib": "^2.8.1"
   }
 }
