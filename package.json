@@ -1,0 +1,27 @@
+{
+  "name": "playwrightamtask",
+  "version": "1.0.0",
+  "description": "Automation technical challenge using Playwright.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm cucumber-js test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Quality-Guy/PlaywrightAMTask.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quality-Guy/PlaywrightAMTask/issues"
+  },
+  "homepage": "https://github.com/Quality-Guy/PlaywrightAMTask#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.1"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "tslib": "^2.8.1"
+  }
+}
